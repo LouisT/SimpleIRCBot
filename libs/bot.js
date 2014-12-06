@@ -51,7 +51,7 @@ Bot.prototype.connect = function () {
                   'USER '+(self.config.username||'Simple')+' * * :'+(self.config.realname||'Simple JavaScript IRC bot. - < https://ltdev.im/ >')
               ];
               if (('password' in self.config.server)) {
-                 packet.unshift('PASS '+config.server.password); // Push the server password to the front of the packet.
+                 packet.unshift('PASS '+self.config.server.password); // Push the server password to the front of the packet.
               }
               self.raw(packet.join('\n'));
          });
