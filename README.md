@@ -32,7 +32,7 @@ $ node index.js # See ./examples/ for more ideas.
 #####Better README coming... eventually!
 
 
-[Node.js]:http://node.js.org/
+[Node.js]:http://nodejs.org/
 [Git]:http://git-scm.com/
 [contact me]:https://ltdev.im/contact/
 [UNLICENSED]:http://unlicense.org/
